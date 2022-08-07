@@ -28,9 +28,17 @@
 img {
   width: 100%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   .column {
     flex: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .column {
+    flex: calc(100%/3);
+  }
+  .column:nth-child(4){
+    display: none;
   }
 }
 @media (max-width: 600px) {
