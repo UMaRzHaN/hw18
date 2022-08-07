@@ -30,12 +30,12 @@ img {
 }
 @media (max-width: 1300px) {
   .column {
-    flex: 50%;
+    flex: calc(100%/3);
   }
 }
 @media (max-width: 1000px) {
   .column {
-    flex: calc(100%/3);
+    flex: 50%;
   }
   .column:nth-child(4){
     display: none;
